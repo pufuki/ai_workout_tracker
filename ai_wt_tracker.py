@@ -12,6 +12,7 @@ class ExerciseType(Enum):
     LATERAL_RAISES = 3
     TRICEPS_KICKBACK = 4
     SQUATS = 5
+    PUSHUPS = 6
 
 class ExerciseTracker:
     def __init__(self):
@@ -187,7 +188,7 @@ def main():
     
     # Print exercise switching instructions
     print("\n=== Exercise Tracker ===")
-    print("Press keys to switch exercises:")
+    print("Choice of exercise::")
     print("1: Curl")
     print("2: Neck Rotation")
     print("3: Lateral Raises")
